@@ -1,0 +1,17 @@
+site_name: IAW
+
+nav:
+    - Principal: index.md
+    - Acerca de: about.md
+    - Practica 17: practica17.md
+    - Practica Lets Encrypt: practica-lets-encrypt.md
+
+theme: material
+lenguage: 'es'
+palette:
+    primary: purple
+    accent: lime
+font:
+    text: Roboto
+    code: Roboto Mono
+
