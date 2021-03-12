@@ -12,14 +12,14 @@
 
     - Ejecutamos:
 
-      docker run --rm -it -p 8000:8000 -v "$PWD":/docs squidfunk/mkdocs-material new .
+          docker run --rm -it -p 8000:8000 -v "$PWD":/docs squidfunk/mkdocs-material new .
       
   - Generamos la documentación:
 
-      docker run --rm -it -v "$PWD":/docs squidfunk/mkdocs-material build
+        docker run --rm -it -v "$PWD":/docs squidfunk/mkdocs-material build
 
   - Publicamos la documentación en GitPages.
 
-      docker run --rm -it -v ~/.ssh:/root/.ssh -v "$PWD":/docs squidfunk/mkdocs-material gh-deploy
+        docker run --rm -it -v ~/.ssh:/root/.ssh -v "$PWD":/docs squidfunk/mkdocs-material gh-deploy
 
 
